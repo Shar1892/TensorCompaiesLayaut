@@ -119,3 +119,53 @@
 .card__close-button:hover {
 	cursor: pointer;
 }
+
+.card__main {
+	display: flex;
+	width: 100%;
+}
+
+.card__content {
+	display: flex;
+	width: calc(100% - 250px);
+	height: calc(100vh - 70px);
+}
+
+.card__menu {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 4px;
+	width: 250px;
+	height: calc(100vh - 70px);
+	background-color: #f8f8f8;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.card__menu-item {
+	width: 100%;
+	margin: 0;
+	padding: 5px 12px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.card__menu-item_active {
+	background-color: #edeef2;
+}
+
+.card__menu-item-text {
+	margin: 0;
+	font-size: 15px;
+	line-height: 20px;
+	color: #313e78;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.card__menu-item-text_active {
+	font-weight: bold;
+}
