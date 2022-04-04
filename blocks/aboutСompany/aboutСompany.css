@@ -1,0 +1,142 @@
+.about-company {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 12px;
+	box-sizing: border-box;
+}
+
+.about-company__info-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-company__info {
+	max-width: calc(100% - 220px);
+	display: flex;
+	flex-direction: column;
+}
+
+.about-company__name-container {
+	width: 100%;
+	max-height: 46px;
+	overflow: hidden;
+}
+
+.about-company__full-name {
+	margin: 0;
+	font-size: 18px;
+	line-height: 23px;
+	color: #cc3d00;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__okved-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0 20px;
+}
+
+.about-company__simple-text {
+	margin: 0;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.about-company__link-text {
+	margin: 0;
+	color: #8991a9;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__link-text_14px {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.about-company__link-text_13px {
+	font-size: 13px;
+	line-height: 17px;
+}
+
+.about-company__okved-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-company__dedicated-text {
+	margin: 0;
+	font-size: 15px;
+	line-height: 19px;
+	color: #313e78;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__employees-info {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 15px 0 0;
+}
+
+.about-company__employees-counter {
+	margin: 0 3px 0 0;
+	font-size: 14px;
+	line-height: 17px;
+	color: #313e78;
+	font-style: normal;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__salary-counter {
+	margin: 0 3px 0 16px;
+	font-size: 13px;
+	line-height: 17px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__about-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 17px 0 0;
+}
+
+.about-company__text-container {
+	width: 100%;
+	margin: 6px 0;
+	max-height: 72px;
+	overflow: hidden;
+}
+
+.about-company__registration-info {
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
