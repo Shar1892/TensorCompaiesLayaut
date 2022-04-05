@@ -1,6 +1,7 @@
 .about-company {
 	width: 100%;
-	display: flex;
+	/*display: flex;*/
+	display: none;
 	flex-direction: column;
 	align-items: center;
 	padding: 15px 12px;
