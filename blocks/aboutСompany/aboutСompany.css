@@ -101,7 +101,7 @@
 }
 
 .about-company__employees-counter {
-	margin: 0 3px 0 0;
+	margin: 0 5px 0 0;
 	font-size: 14px;
 	line-height: 17px;
 	color: #313e78;
@@ -110,14 +110,45 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+.about-company__employees-difference {
+	margin: 0 0 0 8px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #8991a9;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
 .about-company__salary-counter {
-	margin: 0 3px 0 16px;
+	margin: 0 5px 0 16px;
 	font-size: 13px;
 	line-height: 17px;
 	color: #000000;
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__salary-difference {
+	margin: 0 0 0 8px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #8991a9;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.about-company__financialBlock {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 10px;
+	background-color: #f8f8f8;
+	margin-top: 26px;
+	padding: 10px 12px;
+	box-sizing: border-box;
 }
 
 .about-company__about-container {
