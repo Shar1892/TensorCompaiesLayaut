@@ -36,7 +36,7 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.contacts__items-container {
+.contacts__list {
 	width: 100%;
 	margin-top: 5px;
 	display: flex;
