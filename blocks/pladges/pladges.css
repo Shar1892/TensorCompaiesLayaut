@@ -1,20 +1,13 @@
-.courts {
+.pladges {
 	width: 100%;
 	padding: 15px 12px;
 	box-sizing: border-box;
-	/*display: flex;*/
-	display: none;
-	flex-direction: column;
-}
-
-.courts__courts {
-	width: 100%;
 	display: flex;
+	/*display: none;*/
 	flex-direction: column;
-	margin-bottom: 15px;
 }
 
-.courts__title {
+.pladges__title {
 	margin: 0;
 	font-size: 15px;
 	line-height: 19px;
@@ -25,53 +18,40 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.courts__courts-list {
+.pladges__list {
 	width: 100%;
 	margin-top: 10px;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-.courts__court-container {
+.pladges__pladge-container {
 	width: 100%;
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.courts__item-date {
+.pladges__pladge-date {
 	width: 60px;
 	margin: 0;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 19px;
 	color: #000000;
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
 
-.courts__court-info-container {
-	width: calc(100% - 190px);
+.pladges__pladge-info-container {
+	width: calc(100% - 145px);
 	margin: 0 10px;
 	display: flex;
 	flex-direction: column;
 }
 
-.courts__court-competitor {
-	margin: 0;
-	font-size: 15px;
-	line-height: 18px;
-	color: #313e78;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: normal;
-	font-weight: bold;
-	-webkit-font-smoothing: antialiased;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.courts__court-category {
+.pladges__pladge-category {
 	margin: 0;
 	font-size: 14px;
 	line-height: 18px;
@@ -85,11 +65,39 @@
 	overflow: hidden;
 }
 
-.courts__court-number {
-	width: 110px;
+.pladges__pladge-pladgee {
+	margin: 0;
+	font-size: 15px;
+	line-height: 19px;
+	color: #313e78;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.pladges__pladge-discription {
 	margin: 0;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 18px;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.pladges__pladge-type {
+	width: 65px;
+	margin: 0;
+	font-size: 14px;
+	line-height: 19px;
 	color: #8991a9;
 	font-style: normal;
 	font-weight: normal;
@@ -97,7 +105,7 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.courts__more-button {
+.pladges__more-button {
 	width: 30px;
 	margin-top: 5px;
 	font-size: 15px;
@@ -113,51 +121,7 @@
 	outline: 0;
 }
 
-.courts__more-button:hover {
+.pladges__more-button:hover {
 	cursor: pointer;
 	color: #313e78;
-}
-
-.courts__executive {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.courts__executive-list {
-	width: 100%;
-	margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-}
-
-.courts__executive-container {
-	width: 100%;
-	margin-bottom: 5px;
-	display: flex;
-}
-
-.courts__executive-info-container {
-	width: calc(100% - 70px);
-	margin-left: 10px;
-	display: flex;
-	flex-direction: column;
-}
-
-.courts__executive-info {
-	margin: 0 0 3px 0;
-	font-size: 14px;
-	line-height: 18px;
-	color: #000000;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: normal;
-	font-weight: normal;
-	-webkit-font-smoothing: antialiased;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.courts__executive-info:last-of-type {
-	margin-bottom: 0;
 }
