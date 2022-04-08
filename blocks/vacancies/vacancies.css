@@ -2,8 +2,8 @@
 	width: 100%;
 	padding: 15px 12px;
 	box-sizing: border-box;
-	display: flex;
-	/*display: none;*/
+	/*display: flex;*/
+	display: none;
 	flex-direction: column;
 }
 

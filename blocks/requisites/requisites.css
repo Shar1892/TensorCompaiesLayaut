@@ -1,0 +1,115 @@
+.requisites {
+	width: 100%;
+	padding: 15px 12px;
+	box-sizing: border-box;
+	display: flex;
+	/*display: none;*/
+	flex-direction: column;
+}
+
+.requisites__title {
+	margin: 0;
+	font-size: 15px;
+	line-height: 19px;
+	color: #cc3d00;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.requisites__name-container {
+	display: flex;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.requisites__subtitle {
+	margin: 0;
+	width: 110px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #8991a9;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.requisites__info {
+	margin: 0 0 0 10px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.requisites__requisites-container {
+	display: grid;
+	grid-template-columns: 110px calc(50% - 120px) 110px calc(50% - 120px);
+	row-gap: 10px;
+}
+
+.requisites__requisit {
+	margin: 0 0 0 10px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.requisites__okved-container {
+	display: flex;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.requisites__link {
+	margin: 0 0 0 10px;
+	width: 60px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #8991a9;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	white-space: nowrap;
+}
+
+.requisites__registration-container {
+	display: flex;
+	width: 100%;
+}
+
+.requisites__registration-subtitle {
+	margin: 0;
+	font-size: 15px;
+	line-height: 19px;
+	color: #313e78;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.requisites__registration-date {
+	margin: 0 0 0 10px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
