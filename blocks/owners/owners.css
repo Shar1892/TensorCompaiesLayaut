@@ -1,0 +1,156 @@
+.owners {
+	width: 100%;
+	padding: 15px 12px;
+	box-sizing: border-box;
+	/*display: flex;*/
+	display: none;
+	flex-direction: column;
+}
+
+.owners__header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.owners__title {
+	margin: 0;
+	font-size: 15px;
+	line-height: 19px;
+	color: #cc3d00;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+}
+
+.owners__headers-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.owners__headers-INN {
+	width: 80px;
+	margin: 0;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #8991a9;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+
+.owners__headers-cost {
+	width: 75px;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #8991a9;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+
+.owners__headers-share {
+	width: 35px;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #8991a9;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+
+.owners__list {
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.owners__owner-container {
+	width: 100%;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.owners__owner-discription-container {
+	width: calc(100% - 220px);
+	display: flex;
+}
+
+.owners__owner-name {
+	margin: 0;
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.owners__owner-discription {
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #999999;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	white-space: nowrap;
+}
+
+.owners__owner-info-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.owners__owner-INN {
+	width: 80px;
+	margin: 0;
+	font-size: 12px;
+	line-height: 22px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+
+.owners__owner-cost {
+	width: 75px;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+
+.owners__owner-share {
+	width: 35px;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
